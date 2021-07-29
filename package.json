@@ -1,0 +1,22 @@
+{
+  "name": "petfinder",
+  "version": "1.0.0",
+  "description": "Tracks new pets on page and Texts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mickey Maddula",
+  "license": "ISC",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.10",
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "isomorphic-fetch": "^3.0.0",
+    "node-html-parser": "^4.1.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "textmagic-rest-client": "^1.0.11",
+    "twilio": "^3.66.0"
+  }
+}
